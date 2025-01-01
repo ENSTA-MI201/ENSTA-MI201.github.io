@@ -175,9 +175,22 @@
       </td>
     </tr>
 
-	  <tr bgcolor="#ffffd0">
+	  <tr onmouseout="n_ctrl_stop()" onmouseover="n_ctrl_start()" bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/nonlinear_ctrl.png" alt="PontTuset" width="160" height="160" style="border-style: none">
+        <div class="one">
+          <div class="two" id='nctrl_image'><img src='images/nonlinear_ctrl.gif' width="160" height="160"></div>
+          <img src='images/nonlinear_ctrl.png' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function n_ctrl_start() {
+            document.getElementById('nctrl_image').style.opacity = "1";
+          }
+        
+          function n_ctrl_stop() {
+            document.getElementById('nctrl_image').style.opacity = "0";
+          }
+          n_ctrl_stop()
+        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2401.03137/" id="MCG_journal">
@@ -222,9 +235,22 @@
       </td>
     </tr>
 
-    <tr>
+    <tr onmouseout="rrt_stop()" onmouseover="rrt_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/PABMM2015.jpg" alt="PontTuset" width="160" height="160" style="border-style: none">
+        <div class="one">
+          <div class="two" id='rrt_image'><img src='images/rrt.gif' width="160" height="160"></div>
+          <img src='images/rrt.jpg' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function rrt_start() {
+            document.getElementById('rrt_image').style.opacity = "1";
+          }
+        
+          function rrt_stop() {
+            document.getElementById('rrt_image').style.opacity = "0";
+          }
+          rrt_stop()
+        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
           <span class="papertitle">[O] RRT</span>
