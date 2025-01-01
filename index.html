@@ -201,115 +201,61 @@
   </tr>
 
 	
-	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Open Source Implementation</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-	  <tr onmouseout="n_ctrl_stop()" onmouseover="n_ctrl_start()" bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='nctrl_image'><img src='images/nonlinear_ctrl.gif' width="160" height="160"></div>
-          <img src='images/nonlinear_ctrl.png' width="160" height="160">
-        </div>
-        <script type="text/javascript">
-          function n_ctrl_start() {
-            document.getElementById('nctrl_image').style.opacity = "1";
-          }
-        
-          function n_ctrl_stop() {
-            document.getElementById('nctrl_image').style.opacity = "0";
-          }
-          n_ctrl_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">Nonlinear Controller (★ 19)</span>
-        <br>
-        Open Source Contribution, 2019
-        <br>
-        <a href="https://github.com/dohyeoklee/Non-linear-control-simulator">code</a>
-        <p></p>
-        <p>Implement nonlinear control (robust, adaptive, sliding mode) algorithms on two-arm manipulator simulator</p>
-      </td>
-    </tr>
-
-    <tr bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/impala.png" alt="PontTuset" width="160" style="border-style: none">
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">IMPALA</span>
-        <br>
-        Open Source Contribution, 2024
-        <br>
-        <a href="https://github.com/dohyeoklee/IMPALA-distributed-RL">code</a>
-        <p></p>
-        <p>Implement <a href="https://arxiv.org/abs/1802.01561">IMPALA</a>(Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures) in distributed machine system with ray, redis, UDP</p>
-      </td>
-    </tr>
-
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/EKF.png" alt="PontTuset" width="160" height="160" style="border-style: none">
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">EKF (★11)</span>
-        <br>
-        Open Source Contribution, 2021
-        <br>
-        <a href="https://github.com/dohyeoklee/EKF-kitti-GPS-IMU">code</a>
-        <p></p>
-        <p>Implement EKF(Extended Kalman Filter) for sensor fusion of GPS and IMU data with Kitti dataset
-      </td>
-    </tr>
-
-    <tr onmouseout="rrt_stop()" onmouseover="rrt_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='rrt_image'><img src='images/rrt.gif' width="160" height="160"></div>
-          <img src='images/rrt.jpeg' width="160" height="160">
-        </div>
-        <script type="text/javascript">
-          function rrt_start() {
-            document.getElementById('rrt_image').style.opacity = "1";
-          }
-        
-          function rrt_stop() {
-            document.getElementById('rrt_image').style.opacity = "0";
-          }
-          rrt_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">RRT</span>
-        <br>
-        Open Source Contribution, 2020
-        <br>
-        <a href="https://github.com/dohyeoklee/RRT-python">code</a>
-        <p></p>
-        <p>Implement RRT(Rapid Random Tree) algorithms
-      </td>
-    </tr>
-
-    
-
-   	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr>
     <td style="padding:16px;width:100%;vertical-align:middle">
       <h2>Project Experience</h2>
       <p>
-        *DC: Domestic Conference, *R: Research Project, *P: Personal Project, *W: Work Project
+        *O: Open Source Contribution, *DC: Domestic Conference, *R: Research Project, *P: Personal Project, *W: Work Project
       </p>
     </td>
     </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
+      <tr onmouseout="n_ctrl_stop()" onmouseover="n_ctrl_start()" bgcolor="#ffffd0">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='nctrl_image'><img src='images/nonlinear_ctrl.gif' width="160" height="160"></div>
+            <img src='images/nonlinear_ctrl.png' width="160" height="160">
+          </div>
+          <script type="text/javascript">
+            function n_ctrl_start() {
+              document.getElementById('nctrl_image').style.opacity = "1";
+            }
+          
+            function n_ctrl_stop() {
+              document.getElementById('nctrl_image').style.opacity = "0";
+            }
+            n_ctrl_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+            <span class="papertitle">[O] Nonlinear Controller (★ 19)</span>
+          <br>
+          Open Source Contribution, 2019
+          <br>
+          <a href="https://github.com/dohyeoklee/Non-linear-control-simulator">code</a>
+          <p></p>
+          <p>Implement nonlinear control (robust, adaptive, sliding mode) algorithms on two-arm manipulator simulator</p>
+        </td>
+      </tr>
+  
+      <tr bgcolor="#ffffd0">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <img src="images/impala.png" alt="PontTuset" width="160" style="border-style: none">
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+            <span class="papertitle">[O] IMPALA</span>
+          <br>
+          Open Source Contribution, 2024
+          <br>
+          <a href="https://github.com/dohyeoklee/IMPALA-distributed-RL">code</a>
+          <p></p>
+          <p>Implement <a href="https://arxiv.org/abs/1802.01561">IMPALA</a>(Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures) in distributed machine system with ray, redis, UDP</p>
+        </td>
+      </tr>
+  
       <tr onmouseout="spot_stop()" onmouseover="spot_start()" bgcolor="#ffffd0">
         <td style="padding:16px;width:20%;vertical-align:middle">
           <div class="one">
@@ -350,6 +296,49 @@
         <br>
         <p></p>
         <p>Developing 3D pose estimation algorithm for hubo picking challenge</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <img src="images/EKF.png" alt="PontTuset" width="160" height="160" style="border-style: none">
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+          <span class="papertitle">[O] EKF (★11)</span>
+        <br>
+        Open Source Contribution, 2021
+        <br>
+        <a href="https://github.com/dohyeoklee/EKF-kitti-GPS-IMU">code</a>
+        <p></p>
+        <p>Implement EKF(Extended Kalman Filter) for sensor fusion of GPS and IMU data with Kitti dataset
+      </td>
+    </tr>
+
+    <tr onmouseout="rrt_stop()" onmouseover="rrt_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='rrt_image'><img src='images/rrt.gif' width="160" height="160"></div>
+          <img src='images/rrt.jpeg' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function rrt_start() {
+            document.getElementById('rrt_image').style.opacity = "1";
+          }
+        
+          function rrt_stop() {
+            document.getElementById('rrt_image').style.opacity = "0";
+          }
+          rrt_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+          <span class="papertitle">[O] RRT</span>
+        <br>
+        Open Source Contribution, 2020
+        <br>
+        <a href="https://github.com/dohyeoklee/RRT-python">code</a>
+        <p></p>
+        <p>Implement RRT(Rapid Random Tree) algorithms
       </td>
     </tr>
 
