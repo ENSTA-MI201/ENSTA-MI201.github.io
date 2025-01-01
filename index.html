@@ -164,9 +164,11 @@
     <br>
     2020.09 - 2021.04
     <br>
-    Developing autonomous delivery robot<br>
-    -Developing: driving controller module, sensor noise filtering system<br>
-    -Managing: development of mobile robot hardware platform, sensor system, sensor fusion system, planning module, segmentation module
+    <p>
+      Developing autonomous delivery robot<br>
+      -Developing: driving controller module, sensor noise filtering system<br>
+      -Managing: development of mobile robot hardware platform, sensor system, sensor fusion system, planning module, segmentation module
+    </p>
     </td>
   </tr>
   
@@ -215,7 +217,7 @@
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2401.03137/" id="MCG_journal">
-          <span class="papertitle">[O] Nonlinear Controller</span>
+          <span class="papertitle">Nonlinear Controller</span>
         </a>
         <br>
         Open Source Contribution, 19 stars
@@ -231,7 +233,7 @@
         <img src="images/impala.png" alt="PontTuset" width="160" style="border-style: none">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">[O] IMPALA</span>
+          <span class="papertitle">IMPALA</span>
         <br>
         Open Source Contribution
         <br>
@@ -246,7 +248,7 @@
         <img src="images/EKF.png" alt="PontTuset" width="160" height="160" style="border-style: none">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">[O] EKF</span>
+          <span class="papertitle">EKF</span>
         <br>
         Open Source Contribution
         <br>
@@ -274,7 +276,7 @@
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">[O] RRT</span>
+          <span class="papertitle">RRT</span>
         <br>
         Open Source Contribution
         <br>
@@ -298,6 +300,33 @@
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+      <tr onmouseout="spot_stop()" onmouseover="spot_start()" bgcolor="#ffffd0">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='spot_image'><img src='images/spot.gif' width="160" height="160"></div>
+            <img src='images/spot.jpg' width="160" height="160">
+          </div>
+          <script type="text/javascript">
+            function spot_start() {
+              document.getElementById('spot_image').style.opacity = "1";
+            }
+          
+            function spot_stop() {
+              document.getElementById('spot_image').style.opacity = "0";
+            }
+            spot_stop()
+          </script>
+        </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+          <span class="papertitle">[P] spot</span>
+        <br>
+        Research Project working with ZerOne, 2021
+        <br>
+        <p></p>
+        <p>Developing </p>
+      </td>
+    </tr>
+
     <tr bgcolor="#ffffd0">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <img src="images/3d_pose.png" alt="PontTuset" width="160" style="border-style: none">
@@ -305,7 +334,7 @@
       <td style="padding:8px;width:80%;vertical-align:middle">
           <span class="papertitle">[R] 3D pose estimation</span>
         <br>
-        Research Project working with RCV KAIST
+        Research Project working with RCV KAIST, 2018
         <br>
         <p></p>
         <p>Developing 3D pose estimation algorithm for hubo picking challenge</p>
@@ -314,7 +343,7 @@
 
 	  <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/PABMM2015.jpg" alt="PontTuset" width="160" height="160" style="border-style: none">
+        <img src="images/sbe_dqn.png" alt="PontTuset" width="160" height="160" style="border-style: none">
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
           <span class="papertitle">[DC] Separated batch ensemble DQN</span>
