@@ -220,7 +220,7 @@
     </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-       
+   
       <tr onmouseout="spot_stop()" onmouseover="spot_start()" bgcolor="#ffffd0">
         <td style="padding:16px;width:20%;vertical-align:middle">
           <div class="one">
@@ -249,6 +249,39 @@
         <a href="https://vimeo.com/643065295">video2</a>
         <p></p>
         <p>Developing AR system integrating robot Spot with Unity, ROS</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="iso_stop()" onmouseover="iso_start()" bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='iso_image'><img src='images/iso.gif' width="160" height="160"></div>
+          <img src='images/iso.png' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function iso_start() {
+            document.getElementById('iso_image').style.opacity = "1";
+          }
+        
+          function iso_stop() {
+            document.getElementById('iso_image').style.opacity = "0";
+          }
+          iso_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+          <span class="papertitle">[DC] Minimum distorsion embedding for RL</span>
+        <br>
+        Taehyun Cho, <strong>Dohyeok Lee</strong>, Jungwoo Lee
+        <br>
+        <em>KICS Winter Conference</em>, 2023
+        <br>
+        <a href="https://github.com/dohyeoklee/Manifold-Isometric-Regularization-RL/blob/main/project_results/Isometric%20Regularization%20for%20high-level%20actions%20on%20Dynamic-Aware%20Embeddings.pdf">preprint</a> / 
+        <a href="https://github.com/dohyeoklee/Manifold-Isometric-Regularization-RL">code</a>
+        <p></p>
+        <p>
+          We propose isometric regularization for RL to minimize distorsion of latent space embedding
+        </p>
       </td>
     </tr>
 
@@ -308,7 +341,7 @@
           <br>
           <p></p>
           <p>
-          Making autonomous mobile robot with YOLO, Tmap API, GPS and compass sensor, etc.
+            Developing autonomous mobile robot with YOLO, Tmap API, GPS and compass sensor, etc.
           </p>
         </td>
     </tr>
@@ -357,39 +390,6 @@
         <br>
         <p></p>
         <p>Developing wheel-based humanoid for moving and picking object</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="iso_stop()" onmouseover="iso_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='iso_image'><img src='images/iso.gif' width="160" height="160"></div>
-          <img src='images/iso.png' width="160" height="160">
-        </div>
-        <script type="text/javascript">
-          function iso_start() {
-            document.getElementById('iso_image').style.opacity = "1";
-          }
-        
-          function iso_stop() {
-            document.getElementById('iso_image').style.opacity = "0";
-          }
-          iso_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-          <span class="papertitle">[DC] Minimum distorsion embedding for RL</span>
-        <br>
-        Taehyun Cho, <strong>Dohyeok Lee</strong>, Jungwoo Lee
-        <br>
-        <em>KICS Winter Conference</em>, 2023
-        <br>
-        <a href="https://github.com/dohyeoklee/Manifold-Isometric-Regularization-RL/blob/main/project_results/Isometric%20Regularization%20for%20high-level%20actions%20on%20Dynamic-Aware%20Embeddings.pdf">report</a> / 
-        <a href="https://github.com/dohyeoklee/Manifold-Isometric-Regularization-RL">code</a>
-        <p></p>
-        <p>
-          We propose isometric regularization for RL to minimize distorsion of latent space embedding
-        </p>
       </td>
     </tr>
 
@@ -531,7 +531,7 @@
                 Collaborator: <strong>Dohyeok Lee</strong>, Jaemin Cho, Jinsub Lee, Kiheon Sung
                 <br>
                 <p></p>
-                <p>Making hand-shape manipulator and glove-shape interface for teleoperation</p>
+                <p>Developing hand-shape manipulator and glove-shape interface for teleoperation</p>
               </td>
             </tr>
 		  
@@ -549,7 +549,7 @@
                 Collaborator: Duckyu Choi, <a href="https://wjuni.com/">Hwijoon Lim</a>, <strong>Dohyeok Lee</strong>
                 <br>
                 <p></p>
-                <p>Making mobile robot for maker-based localization and mapping</p>
+                <p>Developing mobile robot for maker-based localization and mapping</p>
               </td>
             </tr>
         
