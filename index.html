@@ -108,7 +108,10 @@
         <a href="https://arxiv.org/abs/2401.03137/">arXiv</a> /
         <a href="https://github.com/dohyeoklee/SPQR">code</a>
         <p></p>
-        <p>Independence regularization for ensemble Q-learning using random matrix theory and spiked random model</p>
+        <p>
+          We propose SPQR, independence regularization for ensemble Q-learning using random matrix theory and spiked random model.
+          SPQR shows overestimation bias reduction and better computational efficiency in ensemble Q-learning.
+        </p>
       </td>
     </tr>
 
@@ -125,7 +128,11 @@
         <br>
         <a href="https://github.com/ykim104/ARTE">code</a>
         <p></p>
-        <p>Goal-based RL systems for robotic painting task using CLIP reward system</p>
+        <p>
+          We propose ARTE, human-robot interactive drawing system.
+          To handle human intervention while robot drawing, we implement CLIP-based reward system to judge the current drawing state.
+          For robot policy, we use brush stoke simulation and RL trained on various datasets.
+        </p>
       </td>
     </tr>
 
@@ -344,7 +351,7 @@
       <td style="padding:8px;width:80%;vertical-align:middle">
           <span class="papertitle">[P] Mobile Humanoid</span>
         <br>
-        Project working with SNU Graduated Course, Actuation and Sensing Mechanisms for Robots, 2024
+        Project working with SNU Course, Actuation and Sensing Mechanisms for Robots, 2024
         <br>
         Collaborator: <strong>Dohyeok Lee</strong>, and 23 students
         <br>
@@ -353,9 +360,22 @@
       </td>
     </tr>
 
-    <tr>
+    <tr onmouseout="iso_stop()" onmouseover="iso_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/iso_image.png" alt="PontTuset" width="160" style="border-style: none">
+        <div class="one">
+          <div class="two" id='iso_image'><img src='images/iso.gif' width="160" height="160"></div>
+          <img src='images/iso.jpeg' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function iso_start() {
+            document.getElementById('iso_image').style.opacity = "1";
+          }
+        
+          function iso_stop() {
+            document.getElementById('iso_image').style.opacity = "0";
+          }
+          iso_stop()
+        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
           <span class="papertitle">[DC] Minimum distorsion embedding for RL</span>
@@ -366,7 +386,9 @@
         <br>
         <a href="https://github.com/dohyeoklee/Manifold-Isometric-Regularization-RL">code</a>
         <p></p>
-        <p>Researching about effect of isometric regularization that causes minimum distorsion of latent space embedding to reinforcement learning algorithms</p>
+        <p>
+          We propose isometric regularization for RL to minimize distorsion of latent space embedding
+        </p>
       </td>
     </tr>
 
@@ -383,7 +405,9 @@
         <br>
         <a href="https://github.com/dohyeoklee/Sperated-Batch-Ensemble-DQN">code</a>
         <p></p>
-        <p>Researching about diversification of ensemble DQN using separated batch for computing Bellman Q-target</p>
+        <p>
+          We propose separated batch ensemble DQN for diversification of ensemble using separated batch for Bellman Q-target
+        </p>
       </td>
     </tr>
 
