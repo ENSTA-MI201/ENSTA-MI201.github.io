@@ -450,7 +450,20 @@
 
     <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="images/teleop_dex_manipulator.jpg" alt="PontTuset" width="160" style="border-style: none">
+        <div class="one">
+          <div class="two" id='tele_dex_image'><img src='images/teleop_dex_manipulator.gif' width="160" height="160"></div>
+          <img src='images/teleop_dex_manipulator.jpg' width="160" height="160">
+        </div>
+        <script type="text/javascript">
+          function auto_start() {
+            document.getElementById('tele_dex_image').style.opacity = "1";
+          }
+        
+          function auto_stop() {
+            document.getElementById('tele_dex_image').style.opacity = "0";
+          }
+          auto_stop()
+        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://mr.kaist.ac.kr/projects/70" id="MCG_journal">
